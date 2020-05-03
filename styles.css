@@ -1,0 +1,30 @@
+.ready {
+  cursor: pointer;
+}
+
+.fatNumber {
+  font-size: 10rem;
+}
+
+
+@media (min-width: 768px) {
+  .fatNumber {
+    font-size: 15rem;
+  }
+}
+
+.done {
+  font-size: 3rem;
+}
+
+section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}

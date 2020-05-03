@@ -4,8 +4,51 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>1004 cuts - Angel Guardian</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css?ver=4.4.1">
+  <link rel="stylesheet" href="styles.css?ver=1.0.0">
 </head>
 <body>
-  <h1>Angel Guardian</h1>
+  <header class="container-fluid bg-dark text-white pb-3">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center pt-4">
+          <h1>Angel Guardian <small class="d-inline-block"><em>Cheon-Sa</em></small></h1>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <section>
+      <div class="ready text-center text-primary fatNumber">
+        <div class="h1">
+          Ready?
+        </div>
+        <div class="h2">
+          click here
+        </div>
+      </div>
+      <div class="countdownWrapper" hidden="true">
+        <div class="fatNumber countdownCounter text-danger"></div>
+      </div>
+      <div class="counterWrapper" hidden="true">
+        <div class="fatNumber counter"></div>
+      </div>
+      <div class="done text-success" hidden="true">
+        Congratulations! You're done.
+      </div>
+    </section>
+  </main>
+  <footer class="container-fluid bg-dark text-white pt-3 pb-3 text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          Created with ❤️ by <a class="text-white" href="https://ricard.blog/">Ricard Torres</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="main.js"></script>
 </body>
 </html>
